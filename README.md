@@ -3,7 +3,9 @@
 Sample UCCX Scripts is a collection of scripts for Cisco Contact Center you can use as templates for more advanced scripting requirements. See below for details on each sample script.
 
 
-## 
+## Sample Rest API Script
+This script checks the incoming calling number of the contact and makes a REST API call to Cisco UDS Service to check for any user with a mobile number that matches the incoming calling number, it then allows the user to update their CUCM pin. This script should be used for an example on how to use the "Make REST call" step in contact center express.
+
 
 
 ## Installation
