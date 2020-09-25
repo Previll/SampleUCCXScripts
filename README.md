@@ -8,6 +8,11 @@ This script checks the incoming calling number of the contact and makes a REST A
 
 
 
+## Sample Advanced Prompts Script
+This script shows an example of using container prompts and generated prompts, a call is placed into the CSQ and if the caller is queued, we use the reporting statistic step to determine how many calls are waiting. Based on number of calls waiting we generate a prompt that vocalizes the number using the create generated prompt step. Finally we use the "Create container prompt" step which concatenates the "You are caller number", "1", "in queue" prompts. 
+
+
+
 ## Installation
 
 Simply download the .aef files and upload to contact center as appropriate, scripts come with sample audio prompts with computer generated text-to-speech voices, we recommend replacing these as soon as possible.
